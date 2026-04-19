@@ -101,6 +101,6 @@ All tunable constants live in Section 1 of `robocup.pl`. Changing one line is en
 
 | File | Description |
 |---|---|
-| `robocup.pl` | Single ~845-line source file; 8 sections: static facts (1), dynamic world (2), CSP formation (3), FSM machines (4), STRIPS actions (5), role behaviors (6), game rules/metrics (7), simulator loop (8). |
+| `robocup.pl` | Single source file; 8 sections: static facts (1), dynamic world (2), CSP formation (3), FSM machines (4), STRIPS actions (5), role behaviors (6), game rules/metrics (7), simulator loop (8). |
 | `tests/test_robocup.pl` | PLUnit harness; 16 tests covering setup, CSP, FSM, STRIPS, stamina, goal detection, and simulation completion. |
 | `diagrams` | Diagrams folder for components in the program |
